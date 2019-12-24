@@ -1,0 +1,687 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C87AA7FC23B2051700180BC4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C87AA7FB23B2051700180BC4 /* AppDelegate.swift */; };
+		C87AA7FE23B2051900180BC4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C87AA7FD23B2051900180BC4 /* Assets.xcassets */; };
+		C87AA80123B2051900180BC4 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = C87AA7FF23B2051900180BC4 /* MainMenu.xib */; };
+		C87AA80D23B2051900180BC4 /* MaliangMTKTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C87AA80C23B2051900180BC4 /* MaliangMTKTests.swift */; };
+		C87AA81823B2051900180BC4 /* MaliangMTKUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C87AA81723B2051900180BC4 /* MaliangMTKUITests.swift */; };
+		C87AA85323B205CE00180BC4 /* MLError.swift in Sources */ = {isa = PBXBuildFile; fileRef = C87AA83D23B205CE00180BC4 /* MLError.swift */; };
+		C87AA85423B205CE00180BC4 /* RenderTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = C87AA83E23B205CE00180BC4 /* RenderTarget.swift */; };
+		C87AA85523B205CE00180BC4 /* MetalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C87AA83F23B205CE00180BC4 /* MetalView.swift */; };
+		C87AA85623B205CE00180BC4 /* Shaders.metal in Sources */ = {isa = PBXBuildFile; fileRef = C87AA84023B205CE00180BC4 /* Shaders.metal */; };
+		C87AA85723B205CE00180BC4 /* MLTexture.swift in Sources */ = {isa = PBXBuildFile; fileRef = C87AA84123B205CE00180BC4 /* MLTexture.swift */; };
+		C87AA85823B205CE00180BC4 /* MLColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C87AA84223B205CE00180BC4 /* MLColor.swift */; };
+		C87AA85923B205CE00180BC4 /* WeakObjectBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = C87AA84423B205CE00180BC4 /* WeakObjectBox.swift */; };
+		C87AA85A23B205CE00180BC4 /* Maths.swift in Sources */ = {isa = PBXBuildFile; fileRef = C87AA84523B205CE00180BC4 /* Maths.swift */; };
+		C87AA85B23B205CE00180BC4 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = C87AA84623B205CE00180BC4 /* Utils.swift */; };
+		C87AA85C23B205CE00180BC4 /* DataObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = C87AA84823B205CE00180BC4 /* DataObserver.swift */; };
+		C87AA85D23B205CE00180BC4 /* CanvasData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C87AA84923B205CE00180BC4 /* CanvasData.swift */; };
+		C87AA85E23B205CE00180BC4 /* Document.swift in Sources */ = {isa = PBXBuildFile; fileRef = C87AA84A23B205CE00180BC4 /* Document.swift */; };
+		C87AA85F23B205CE00180BC4 /* Canvas.swift in Sources */ = {isa = PBXBuildFile; fileRef = C87AA84C23B205CE00180BC4 /* Canvas.swift */; };
+		C87AA86023B205CE00180BC4 /* ActionObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = C87AA84D23B205CE00180BC4 /* ActionObserver.swift */; };
+		C87AA86123B205CE00180BC4 /* Chartlet.swift in Sources */ = {isa = PBXBuildFile; fileRef = C87AA84F23B205CE00180BC4 /* Chartlet.swift */; };
+		C87AA86223B205CE00180BC4 /* Printer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C87AA85123B205CE00180BC4 /* Printer.swift */; };
+		C87AA86323B205CE00180BC4 /* Brush.swift in Sources */ = {isa = PBXBuildFile; fileRef = C87AA85223B205CE00180BC4 /* Brush.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C87AA80923B2051900180BC4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C87AA7F023B2051700180BC4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C87AA7F723B2051700180BC4;
+			remoteInfo = MaliangMTK;
+		};
+		C87AA81423B2051900180BC4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C87AA7F023B2051700180BC4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C87AA7F723B2051700180BC4;
+			remoteInfo = MaliangMTK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C87AA7F823B2051700180BC4 /* MaliangMTK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MaliangMTK.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C87AA7FB23B2051700180BC4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C87AA7FD23B2051900180BC4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C87AA80023B2051900180BC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		C87AA80223B2051900180BC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C87AA80323B2051900180BC4 /* MaliangMTK.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MaliangMTK.entitlements; sourceTree = "<group>"; };
+		C87AA80823B2051900180BC4 /* MaliangMTKTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MaliangMTKTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C87AA80C23B2051900180BC4 /* MaliangMTKTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaliangMTKTests.swift; sourceTree = "<group>"; };
+		C87AA80E23B2051900180BC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C87AA81323B2051900180BC4 /* MaliangMTKUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MaliangMTKUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C87AA81723B2051900180BC4 /* MaliangMTKUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaliangMTKUITests.swift; sourceTree = "<group>"; };
+		C87AA81923B2051900180BC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C87AA83D23B205CE00180BC4 /* MLError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MLError.swift; sourceTree = "<group>"; };
+		C87AA83E23B205CE00180BC4 /* RenderTarget.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RenderTarget.swift; sourceTree = "<group>"; };
+		C87AA83F23B205CE00180BC4 /* MetalView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MetalView.swift; sourceTree = "<group>"; };
+		C87AA84023B205CE00180BC4 /* Shaders.metal */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.metal; path = Shaders.metal; sourceTree = "<group>"; };
+		C87AA84123B205CE00180BC4 /* MLTexture.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MLTexture.swift; sourceTree = "<group>"; };
+		C87AA84223B205CE00180BC4 /* MLColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MLColor.swift; sourceTree = "<group>"; };
+		C87AA84423B205CE00180BC4 /* WeakObjectBox.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeakObjectBox.swift; sourceTree = "<group>"; };
+		C87AA84523B205CE00180BC4 /* Maths.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Maths.swift; sourceTree = "<group>"; };
+		C87AA84623B205CE00180BC4 /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		C87AA84823B205CE00180BC4 /* DataObserver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataObserver.swift; sourceTree = "<group>"; };
+		C87AA84923B205CE00180BC4 /* CanvasData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CanvasData.swift; sourceTree = "<group>"; };
+		C87AA84A23B205CE00180BC4 /* Document.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Document.swift; sourceTree = "<group>"; };
+		C87AA84C23B205CE00180BC4 /* Canvas.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Canvas.swift; sourceTree = "<group>"; };
+		C87AA84D23B205CE00180BC4 /* ActionObserver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActionObserver.swift; sourceTree = "<group>"; };
+		C87AA84F23B205CE00180BC4 /* Chartlet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Chartlet.swift; sourceTree = "<group>"; };
+		C87AA85123B205CE00180BC4 /* Printer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Printer.swift; sourceTree = "<group>"; };
+		C87AA85223B205CE00180BC4 /* Brush.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Brush.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C87AA7F523B2051700180BC4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C87AA80523B2051900180BC4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C87AA81023B2051900180BC4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C87AA7EF23B2051700180BC4 = {
+			isa = PBXGroup;
+			children = (
+				C87AA7FA23B2051700180BC4 /* MaliangMTK */,
+				C87AA80B23B2051900180BC4 /* MaliangMTKTests */,
+				C87AA81623B2051900180BC4 /* MaliangMTKUITests */,
+				C87AA7F923B2051700180BC4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C87AA7F923B2051700180BC4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C87AA7F823B2051700180BC4 /* MaliangMTK.app */,
+				C87AA80823B2051900180BC4 /* MaliangMTKTests.xctest */,
+				C87AA81323B2051900180BC4 /* MaliangMTKUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C87AA7FA23B2051700180BC4 /* MaliangMTK */ = {
+			isa = PBXGroup;
+			children = (
+				C87AA85023B205CE00180BC4 /* Brush */,
+				C87AA84B23B205CE00180BC4 /* Canvas */,
+				C87AA84723B205CE00180BC4 /* Data & Documents */,
+				C87AA84E23B205CE00180BC4 /* Elements */,
+				C87AA84323B205CE00180BC4 /* Math & Utils */,
+				C87AA83C23B205CE00180BC4 /* MetalBase */,
+				C87AA7FB23B2051700180BC4 /* AppDelegate.swift */,
+				C87AA7FD23B2051900180BC4 /* Assets.xcassets */,
+				C87AA7FF23B2051900180BC4 /* MainMenu.xib */,
+				C87AA80223B2051900180BC4 /* Info.plist */,
+				C87AA80323B2051900180BC4 /* MaliangMTK.entitlements */,
+			);
+			path = MaliangMTK;
+			sourceTree = "<group>";
+		};
+		C87AA80B23B2051900180BC4 /* MaliangMTKTests */ = {
+			isa = PBXGroup;
+			children = (
+				C87AA80C23B2051900180BC4 /* MaliangMTKTests.swift */,
+				C87AA80E23B2051900180BC4 /* Info.plist */,
+			);
+			path = MaliangMTKTests;
+			sourceTree = "<group>";
+		};
+		C87AA81623B2051900180BC4 /* MaliangMTKUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C87AA81723B2051900180BC4 /* MaliangMTKUITests.swift */,
+				C87AA81923B2051900180BC4 /* Info.plist */,
+			);
+			path = MaliangMTKUITests;
+			sourceTree = "<group>";
+		};
+		C87AA83C23B205CE00180BC4 /* MetalBase */ = {
+			isa = PBXGroup;
+			children = (
+				C87AA83D23B205CE00180BC4 /* MLError.swift */,
+				C87AA83E23B205CE00180BC4 /* RenderTarget.swift */,
+				C87AA83F23B205CE00180BC4 /* MetalView.swift */,
+				C87AA84023B205CE00180BC4 /* Shaders.metal */,
+				C87AA84123B205CE00180BC4 /* MLTexture.swift */,
+				C87AA84223B205CE00180BC4 /* MLColor.swift */,
+			);
+			path = MetalBase;
+			sourceTree = "<group>";
+		};
+		C87AA84323B205CE00180BC4 /* Math & Utils */ = {
+			isa = PBXGroup;
+			children = (
+				C87AA84423B205CE00180BC4 /* WeakObjectBox.swift */,
+				C87AA84523B205CE00180BC4 /* Maths.swift */,
+				C87AA84623B205CE00180BC4 /* Utils.swift */,
+			);
+			path = "Math & Utils";
+			sourceTree = "<group>";
+		};
+		C87AA84723B205CE00180BC4 /* Data & Documents */ = {
+			isa = PBXGroup;
+			children = (
+				C87AA84823B205CE00180BC4 /* DataObserver.swift */,
+				C87AA84923B205CE00180BC4 /* CanvasData.swift */,
+				C87AA84A23B205CE00180BC4 /* Document.swift */,
+			);
+			path = "Data & Documents";
+			sourceTree = "<group>";
+		};
+		C87AA84B23B205CE00180BC4 /* Canvas */ = {
+			isa = PBXGroup;
+			children = (
+				C87AA84C23B205CE00180BC4 /* Canvas.swift */,
+				C87AA84D23B205CE00180BC4 /* ActionObserver.swift */,
+			);
+			path = Canvas;
+			sourceTree = "<group>";
+		};
+		C87AA84E23B205CE00180BC4 /* Elements */ = {
+			isa = PBXGroup;
+			children = (
+				C87AA84F23B205CE00180BC4 /* Chartlet.swift */,
+			);
+			path = Elements;
+			sourceTree = "<group>";
+		};
+		C87AA85023B205CE00180BC4 /* Brush */ = {
+			isa = PBXGroup;
+			children = (
+				C87AA85123B205CE00180BC4 /* Printer.swift */,
+				C87AA85223B205CE00180BC4 /* Brush.swift */,
+			);
+			path = Brush;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C87AA7F723B2051700180BC4 /* MaliangMTK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C87AA81C23B2051900180BC4 /* Build configuration list for PBXNativeTarget "MaliangMTK" */;
+			buildPhases = (
+				C87AA7F423B2051700180BC4 /* Sources */,
+				C87AA7F523B2051700180BC4 /* Frameworks */,
+				C87AA7F623B2051700180BC4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MaliangMTK;
+			productName = MaliangMTK;
+			productReference = C87AA7F823B2051700180BC4 /* MaliangMTK.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C87AA80723B2051900180BC4 /* MaliangMTKTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C87AA81F23B2051900180BC4 /* Build configuration list for PBXNativeTarget "MaliangMTKTests" */;
+			buildPhases = (
+				C87AA80423B2051900180BC4 /* Sources */,
+				C87AA80523B2051900180BC4 /* Frameworks */,
+				C87AA80623B2051900180BC4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C87AA80A23B2051900180BC4 /* PBXTargetDependency */,
+			);
+			name = MaliangMTKTests;
+			productName = MaliangMTKTests;
+			productReference = C87AA80823B2051900180BC4 /* MaliangMTKTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C87AA81223B2051900180BC4 /* MaliangMTKUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C87AA82223B2051900180BC4 /* Build configuration list for PBXNativeTarget "MaliangMTKUITests" */;
+			buildPhases = (
+				C87AA80F23B2051900180BC4 /* Sources */,
+				C87AA81023B2051900180BC4 /* Frameworks */,
+				C87AA81123B2051900180BC4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C87AA81523B2051900180BC4 /* PBXTargetDependency */,
+			);
+			name = MaliangMTKUITests;
+			productName = MaliangMTKUITests;
+			productReference = C87AA81323B2051900180BC4 /* MaliangMTKUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C87AA7F023B2051700180BC4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				TargetAttributes = {
+					C87AA7F723B2051700180BC4 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+					C87AA80723B2051900180BC4 = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = C87AA7F723B2051700180BC4;
+					};
+					C87AA81223B2051900180BC4 = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = C87AA7F723B2051700180BC4;
+					};
+				};
+			};
+			buildConfigurationList = C87AA7F323B2051700180BC4 /* Build configuration list for PBXProject "MaliangMTK" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C87AA7EF23B2051700180BC4;
+			productRefGroup = C87AA7F923B2051700180BC4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C87AA7F723B2051700180BC4 /* MaliangMTK */,
+				C87AA80723B2051900180BC4 /* MaliangMTKTests */,
+				C87AA81223B2051900180BC4 /* MaliangMTKUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C87AA7F623B2051700180BC4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C87AA7FE23B2051900180BC4 /* Assets.xcassets in Resources */,
+				C87AA80123B2051900180BC4 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C87AA80623B2051900180BC4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C87AA81123B2051900180BC4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C87AA7F423B2051700180BC4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C87AA86123B205CE00180BC4 /* Chartlet.swift in Sources */,
+				C87AA85723B205CE00180BC4 /* MLTexture.swift in Sources */,
+				C87AA85C23B205CE00180BC4 /* DataObserver.swift in Sources */,
+				C87AA85523B205CE00180BC4 /* MetalView.swift in Sources */,
+				C87AA85823B205CE00180BC4 /* MLColor.swift in Sources */,
+				C87AA7FC23B2051700180BC4 /* AppDelegate.swift in Sources */,
+				C87AA85D23B205CE00180BC4 /* CanvasData.swift in Sources */,
+				C87AA85423B205CE00180BC4 /* RenderTarget.swift in Sources */,
+				C87AA85F23B205CE00180BC4 /* Canvas.swift in Sources */,
+				C87AA85B23B205CE00180BC4 /* Utils.swift in Sources */,
+				C87AA85323B205CE00180BC4 /* MLError.swift in Sources */,
+				C87AA85E23B205CE00180BC4 /* Document.swift in Sources */,
+				C87AA86323B205CE00180BC4 /* Brush.swift in Sources */,
+				C87AA86023B205CE00180BC4 /* ActionObserver.swift in Sources */,
+				C87AA85923B205CE00180BC4 /* WeakObjectBox.swift in Sources */,
+				C87AA85A23B205CE00180BC4 /* Maths.swift in Sources */,
+				C87AA85623B205CE00180BC4 /* Shaders.metal in Sources */,
+				C87AA86223B205CE00180BC4 /* Printer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C87AA80423B2051900180BC4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C87AA80D23B2051900180BC4 /* MaliangMTKTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C87AA80F23B2051900180BC4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C87AA81823B2051900180BC4 /* MaliangMTKUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C87AA80A23B2051900180BC4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C87AA7F723B2051700180BC4 /* MaliangMTK */;
+			targetProxy = C87AA80923B2051900180BC4 /* PBXContainerItemProxy */;
+		};
+		C87AA81523B2051900180BC4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C87AA7F723B2051700180BC4 /* MaliangMTK */;
+			targetProxy = C87AA81423B2051900180BC4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C87AA7FF23B2051900180BC4 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C87AA80023B2051900180BC4 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C87AA81A23B2051900180BC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C87AA81B23B2051900180BC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		C87AA81D23B2051900180BC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = MaliangMTK/MaliangMTK.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MaliangMTK/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = test.MaliangMTK;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		C87AA81E23B2051900180BC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = MaliangMTK/MaliangMTK.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MaliangMTK/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = test.MaliangMTK;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		C87AA82023B2051900180BC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MaliangMTKTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = test.MaliangMTKTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MaliangMTK.app/Contents/MacOS/MaliangMTK";
+			};
+			name = Debug;
+		};
+		C87AA82123B2051900180BC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MaliangMTKTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = test.MaliangMTKTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MaliangMTK.app/Contents/MacOS/MaliangMTK";
+			};
+			name = Release;
+		};
+		C87AA82323B2051900180BC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MaliangMTKUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = test.MaliangMTKUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = MaliangMTK;
+			};
+			name = Debug;
+		};
+		C87AA82423B2051900180BC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MaliangMTKUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = test.MaliangMTKUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = MaliangMTK;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C87AA7F323B2051700180BC4 /* Build configuration list for PBXProject "MaliangMTK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C87AA81A23B2051900180BC4 /* Debug */,
+				C87AA81B23B2051900180BC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C87AA81C23B2051900180BC4 /* Build configuration list for PBXNativeTarget "MaliangMTK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C87AA81D23B2051900180BC4 /* Debug */,
+				C87AA81E23B2051900180BC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C87AA81F23B2051900180BC4 /* Build configuration list for PBXNativeTarget "MaliangMTKTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C87AA82023B2051900180BC4 /* Debug */,
+				C87AA82123B2051900180BC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C87AA82223B2051900180BC4 /* Build configuration list for PBXNativeTarget "MaliangMTKUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C87AA82323B2051900180BC4 /* Debug */,
+				C87AA82423B2051900180BC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C87AA7F023B2051700180BC4 /* Project object */;
+}
