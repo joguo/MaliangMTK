@@ -10,8 +10,6 @@
 		C87AA7FC23B2051700180BC4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C87AA7FB23B2051700180BC4 /* AppDelegate.swift */; };
 		C87AA7FE23B2051900180BC4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C87AA7FD23B2051900180BC4 /* Assets.xcassets */; };
 		C87AA80123B2051900180BC4 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = C87AA7FF23B2051900180BC4 /* MainMenu.xib */; };
-		C87AA80D23B2051900180BC4 /* MaliangMTKTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C87AA80C23B2051900180BC4 /* MaliangMTKTests.swift */; };
-		C87AA81823B2051900180BC4 /* MaliangMTKUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C87AA81723B2051900180BC4 /* MaliangMTKUITests.swift */; };
 		C87AA85323B205CE00180BC4 /* MLError.swift in Sources */ = {isa = PBXBuildFile; fileRef = C87AA83D23B205CE00180BC4 /* MLError.swift */; };
 		C87AA85423B205CE00180BC4 /* RenderTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = C87AA83E23B205CE00180BC4 /* RenderTarget.swift */; };
 		C87AA85523B205CE00180BC4 /* MetalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C87AA83F23B205CE00180BC4 /* MetalView.swift */; };
@@ -29,24 +27,11 @@
 		C87AA86123B205CE00180BC4 /* Chartlet.swift in Sources */ = {isa = PBXBuildFile; fileRef = C87AA84F23B205CE00180BC4 /* Chartlet.swift */; };
 		C87AA86223B205CE00180BC4 /* Printer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C87AA85123B205CE00180BC4 /* Printer.swift */; };
 		C87AA86323B205CE00180BC4 /* Brush.swift in Sources */ = {isa = PBXBuildFile; fileRef = C87AA85223B205CE00180BC4 /* Brush.swift */; };
+		C87AA92623B5E3BA00180BC4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C87AA92523B5E3BA00180BC4 /* AppDelegate.swift */; };
+		C87AA92823B5E3BB00180BC4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C87AA92723B5E3BB00180BC4 /* Assets.xcassets */; };
+		C87AA92B23B5E3BB00180BC4 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = C87AA92923B5E3BB00180BC4 /* MainMenu.xib */; };
+		C87AA94E23B5E43000180BC4 /* Shaders.metal in Sources */ = {isa = PBXBuildFile; fileRef = C87AA94D23B5E43000180BC4 /* Shaders.metal */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		C87AA80923B2051900180BC4 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = C87AA7F023B2051700180BC4 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = C87AA7F723B2051700180BC4;
-			remoteInfo = MaliangMTK;
-		};
-		C87AA81423B2051900180BC4 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = C87AA7F023B2051700180BC4 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = C87AA7F723B2051700180BC4;
-			remoteInfo = MaliangMTK;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		C87AA7F823B2051700180BC4 /* MaliangMTK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MaliangMTK.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -55,12 +40,6 @@
 		C87AA80023B2051900180BC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		C87AA80223B2051900180BC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C87AA80323B2051900180BC4 /* MaliangMTK.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MaliangMTK.entitlements; sourceTree = "<group>"; };
-		C87AA80823B2051900180BC4 /* MaliangMTKTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MaliangMTKTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		C87AA80C23B2051900180BC4 /* MaliangMTKTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaliangMTKTests.swift; sourceTree = "<group>"; };
-		C87AA80E23B2051900180BC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C87AA81323B2051900180BC4 /* MaliangMTKUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MaliangMTKUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		C87AA81723B2051900180BC4 /* MaliangMTKUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaliangMTKUITests.swift; sourceTree = "<group>"; };
-		C87AA81923B2051900180BC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C87AA83D23B205CE00180BC4 /* MLError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MLError.swift; sourceTree = "<group>"; };
 		C87AA83E23B205CE00180BC4 /* RenderTarget.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RenderTarget.swift; sourceTree = "<group>"; };
 		C87AA83F23B205CE00180BC4 /* MetalView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MetalView.swift; sourceTree = "<group>"; };
@@ -78,6 +57,13 @@
 		C87AA84F23B205CE00180BC4 /* Chartlet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Chartlet.swift; sourceTree = "<group>"; };
 		C87AA85123B205CE00180BC4 /* Printer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Printer.swift; sourceTree = "<group>"; };
 		C87AA85223B205CE00180BC4 /* Brush.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Brush.swift; sourceTree = "<group>"; };
+		C87AA92323B5E3BA00180BC4 /* MTKViewRed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MTKViewRed.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C87AA92523B5E3BA00180BC4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C87AA92723B5E3BB00180BC4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C87AA92A23B5E3BB00180BC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		C87AA92C23B5E3BB00180BC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C87AA92D23B5E3BB00180BC4 /* MTKViewRed.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MTKViewRed.entitlements; sourceTree = "<group>"; };
+		C87AA94D23B5E43000180BC4 /* Shaders.metal */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.metal; path = Shaders.metal; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,14 +74,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C87AA80523B2051900180BC4 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C87AA81023B2051900180BC4 /* Frameworks */ = {
+		C87AA92023B5E3BA00180BC4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -109,8 +88,7 @@
 			isa = PBXGroup;
 			children = (
 				C87AA7FA23B2051700180BC4 /* MaliangMTK */,
-				C87AA80B23B2051900180BC4 /* MaliangMTKTests */,
-				C87AA81623B2051900180BC4 /* MaliangMTKUITests */,
+				C87AA92423B5E3BA00180BC4 /* MTKViewRed */,
 				C87AA7F923B2051700180BC4 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -119,8 +97,7 @@
 			isa = PBXGroup;
 			children = (
 				C87AA7F823B2051700180BC4 /* MaliangMTK.app */,
-				C87AA80823B2051900180BC4 /* MaliangMTKTests.xctest */,
-				C87AA81323B2051900180BC4 /* MaliangMTKUITests.xctest */,
+				C87AA92323B5E3BA00180BC4 /* MTKViewRed.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -141,24 +118,6 @@
 				C87AA80323B2051900180BC4 /* MaliangMTK.entitlements */,
 			);
 			path = MaliangMTK;
-			sourceTree = "<group>";
-		};
-		C87AA80B23B2051900180BC4 /* MaliangMTKTests */ = {
-			isa = PBXGroup;
-			children = (
-				C87AA80C23B2051900180BC4 /* MaliangMTKTests.swift */,
-				C87AA80E23B2051900180BC4 /* Info.plist */,
-			);
-			path = MaliangMTKTests;
-			sourceTree = "<group>";
-		};
-		C87AA81623B2051900180BC4 /* MaliangMTKUITests */ = {
-			isa = PBXGroup;
-			children = (
-				C87AA81723B2051900180BC4 /* MaliangMTKUITests.swift */,
-				C87AA81923B2051900180BC4 /* Info.plist */,
-			);
-			path = MaliangMTKUITests;
 			sourceTree = "<group>";
 		};
 		C87AA83C23B205CE00180BC4 /* MetalBase */ = {
@@ -220,6 +179,19 @@
 			path = Brush;
 			sourceTree = "<group>";
 		};
+		C87AA92423B5E3BA00180BC4 /* MTKViewRed */ = {
+			isa = PBXGroup;
+			children = (
+				C87AA92523B5E3BA00180BC4 /* AppDelegate.swift */,
+				C87AA94D23B5E43000180BC4 /* Shaders.metal */,
+				C87AA92723B5E3BB00180BC4 /* Assets.xcassets */,
+				C87AA92923B5E3BB00180BC4 /* MainMenu.xib */,
+				C87AA92C23B5E3BB00180BC4 /* Info.plist */,
+				C87AA92D23B5E3BB00180BC4 /* MTKViewRed.entitlements */,
+			);
+			path = MTKViewRed;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -240,41 +212,22 @@
 			productReference = C87AA7F823B2051700180BC4 /* MaliangMTK.app */;
 			productType = "com.apple.product-type.application";
 		};
-		C87AA80723B2051900180BC4 /* MaliangMTKTests */ = {
+		C87AA92223B5E3BA00180BC4 /* MTKViewRed */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C87AA81F23B2051900180BC4 /* Build configuration list for PBXNativeTarget "MaliangMTKTests" */;
+			buildConfigurationList = C87AA94A23B5E3BB00180BC4 /* Build configuration list for PBXNativeTarget "MTKViewRed" */;
 			buildPhases = (
-				C87AA80423B2051900180BC4 /* Sources */,
-				C87AA80523B2051900180BC4 /* Frameworks */,
-				C87AA80623B2051900180BC4 /* Resources */,
+				C87AA91F23B5E3BA00180BC4 /* Sources */,
+				C87AA92023B5E3BA00180BC4 /* Frameworks */,
+				C87AA92123B5E3BA00180BC4 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				C87AA80A23B2051900180BC4 /* PBXTargetDependency */,
 			);
-			name = MaliangMTKTests;
-			productName = MaliangMTKTests;
-			productReference = C87AA80823B2051900180BC4 /* MaliangMTKTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		C87AA81223B2051900180BC4 /* MaliangMTKUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = C87AA82223B2051900180BC4 /* Build configuration list for PBXNativeTarget "MaliangMTKUITests" */;
-			buildPhases = (
-				C87AA80F23B2051900180BC4 /* Sources */,
-				C87AA81023B2051900180BC4 /* Frameworks */,
-				C87AA81123B2051900180BC4 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				C87AA81523B2051900180BC4 /* PBXTargetDependency */,
-			);
-			name = MaliangMTKUITests;
-			productName = MaliangMTKUITests;
-			productReference = C87AA81323B2051900180BC4 /* MaliangMTKUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
+			name = MTKViewRed;
+			productName = MTKViewRed;
+			productReference = C87AA92323B5E3BA00180BC4 /* MTKViewRed.app */;
+			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
@@ -288,13 +241,8 @@
 					C87AA7F723B2051700180BC4 = {
 						CreatedOnToolsVersion = 11.2.1;
 					};
-					C87AA80723B2051900180BC4 = {
+					C87AA92223B5E3BA00180BC4 = {
 						CreatedOnToolsVersion = 11.2.1;
-						TestTargetID = C87AA7F723B2051700180BC4;
-					};
-					C87AA81223B2051900180BC4 = {
-						CreatedOnToolsVersion = 11.2.1;
-						TestTargetID = C87AA7F723B2051700180BC4;
 					};
 				};
 			};
@@ -312,8 +260,7 @@
 			projectRoot = "";
 			targets = (
 				C87AA7F723B2051700180BC4 /* MaliangMTK */,
-				C87AA80723B2051900180BC4 /* MaliangMTKTests */,
-				C87AA81223B2051900180BC4 /* MaliangMTKUITests */,
+				C87AA92223B5E3BA00180BC4 /* MTKViewRed */,
 			);
 		};
 /* End PBXProject section */
@@ -328,17 +275,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C87AA80623B2051900180BC4 /* Resources */ = {
+		C87AA92123B5E3BA00180BC4 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C87AA81123B2051900180BC4 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				C87AA92823B5E3BB00180BC4 /* Assets.xcassets in Resources */,
+				C87AA92B23B5E3BB00180BC4 /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -370,42 +312,30 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C87AA80423B2051900180BC4 /* Sources */ = {
+		C87AA91F23B5E3BA00180BC4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C87AA80D23B2051900180BC4 /* MaliangMTKTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C87AA80F23B2051900180BC4 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C87AA81823B2051900180BC4 /* MaliangMTKUITests.swift in Sources */,
+				C87AA94E23B5E43000180BC4 /* Shaders.metal in Sources */,
+				C87AA92623B5E3BA00180BC4 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		C87AA80A23B2051900180BC4 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = C87AA7F723B2051700180BC4 /* MaliangMTK */;
-			targetProxy = C87AA80923B2051900180BC4 /* PBXContainerItemProxy */;
-		};
-		C87AA81523B2051900180BC4 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = C87AA7F723B2051700180BC4 /* MaliangMTK */;
-			targetProxy = C87AA81423B2051900180BC4 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		C87AA7FF23B2051900180BC4 /* MainMenu.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
 				C87AA80023B2051900180BC4 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		C87AA92923B5E3BB00180BC4 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C87AA92A23B5E3BB00180BC4 /* Base */,
 			);
 			name = MainMenu.xib;
 			sourceTree = "<group>";
@@ -562,83 +492,39 @@
 			};
 			name = Release;
 		};
-		C87AA82023B2051900180BC4 /* Debug */ = {
+		C87AA94423B5E3BB00180BC4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = MTKViewRed/MTKViewRed.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = MaliangMTKTests/Info.plist;
+				INFOPLIST_FILE = MTKViewRed/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
-					"@loader_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.15;
-				PRODUCT_BUNDLE_IDENTIFIER = test.MaliangMTKTests;
+				PRODUCT_BUNDLE_IDENTIFIER = test.MTKViewRed;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MaliangMTK.app/Contents/MacOS/MaliangMTK";
 			};
 			name = Debug;
 		};
-		C87AA82123B2051900180BC4 /* Release */ = {
+		C87AA94523B5E3BB00180BC4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = MTKViewRed/MTKViewRed.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = MaliangMTKTests/Info.plist;
+				INFOPLIST_FILE = MTKViewRed/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
-					"@loader_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.15;
-				PRODUCT_BUNDLE_IDENTIFIER = test.MaliangMTKTests;
+				PRODUCT_BUNDLE_IDENTIFIER = test.MTKViewRed;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MaliangMTK.app/Contents/MacOS/MaliangMTK";
-			};
-			name = Release;
-		};
-		C87AA82323B2051900180BC4 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = MaliangMTKUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/../Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = test.MaliangMTKUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TEST_TARGET_NAME = MaliangMTK;
-			};
-			name = Debug;
-		};
-		C87AA82423B2051900180BC4 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = MaliangMTKUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/../Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = test.MaliangMTKUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TEST_TARGET_NAME = MaliangMTK;
 			};
 			name = Release;
 		};
@@ -663,20 +549,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C87AA81F23B2051900180BC4 /* Build configuration list for PBXNativeTarget "MaliangMTKTests" */ = {
+		C87AA94A23B5E3BB00180BC4 /* Build configuration list for PBXNativeTarget "MTKViewRed" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C87AA82023B2051900180BC4 /* Debug */,
-				C87AA82123B2051900180BC4 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		C87AA82223B2051900180BC4 /* Build configuration list for PBXNativeTarget "MaliangMTKUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C87AA82323B2051900180BC4 /* Debug */,
-				C87AA82423B2051900180BC4 /* Release */,
+				C87AA94423B5E3BB00180BC4 /* Debug */,
+				C87AA94523B5E3BB00180BC4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
